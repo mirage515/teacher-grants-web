@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "papers_112_114",
+  "type": "object",
+  "properties": {
+    "主聘系所": { "type": ["string", "null"], "description": "教師主聘系所。" },
+    "作者順序": { "type": ["string", "null"], "description": "教師在論文作者名單中的順序。" },
+    "刊物名稱": { "type": ["string", "null"], "description": "論文所屬期刊、會議或刊物名稱。" },
+    "專兼任": { "type": ["string", "null"], "description": "教師職務性質，例如專任或兼任。" },
+    "年度": { "type": ["string", "null"], "description": "資料或論文年度。" },
+    "所屬計畫案": { "type": ["string", "null"], "description": "論文相關之計畫案名稱或編號。" },
+    "教師姓名": { "type": ["string", "null"], "description": "論文作者或對應教師姓名。" },
+    "是否具有審稿制度": { "type": ["string", "null"], "description": "該刊物是否具審稿制度。" },
+    "期刊出版地國家/地區": { "type": ["string", "null"], "description": "期刊出版所在國家或地區。" },
+    "期刊論文是否為跨國(地區)合作": { "type": ["string", "null"], "description": "是否屬跨國或跨地區合作論文。" },
+    "狀態": { "type": ["string", "null"], "description": "論文目前狀態。" },
+    "發表卷數": { "type": ["string", "null"], "description": "論文發表卷數資訊。" },
+    "發表型式": { "type": ["string", "null"], "description": "論文發表形式。" },
+    "發表年份": { "type": ["string", "null"], "description": "論文發表年份。" },
+    "發表月份": { "type": ["string", "null"], "description": "論文發表月份。" },
+    "發表期數": { "type": ["string", "null"], "description": "期刊發表期數。" },
+    "系所代碼": { "type": ["string", "null"], "description": "教師或研究單位代碼。" },
+    "論文名稱": { "type": ["string", "null"], "description": "論文標題。" },
+    "論文收錄分類": { "type": ["string", "null"], "description": "論文收錄分類或索引類別。" },
+    "識別號": { "type": ["string", "null"], "description": "論文唯一識別號。" },
+    "通訊作者": { "type": ["string", "null"], "description": "論文通訊作者名稱。" }
+  },
+  "required": [
+    "主聘系所", "作者順序", "刊物名稱", "專兼任", "年度", "所屬計畫案",
+    "教師姓名", "是否具有審稿制度", "期刊出版地國家/地區",
+    "期刊論文是否為跨國(地區)合作", "狀態", "發表卷數", "發表型式",
+    "發表年份", "發表月份", "發表期數", "系所代碼", "論文名稱",
+    "論文收錄分類", "識別號", "通訊作者"
+  ],
+  "additionalProperties": true
+}

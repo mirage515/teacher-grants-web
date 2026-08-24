@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "patent",
+  "type": "object",
+  "properties": {
+    "識別號": { "type": ["string", "null"], "description": "專利資料唯一識別碼。" },
+    "年度": { "type": ["string", "null"], "description": "專利或技術資料年度。" },
+    "承接代表": { "type": ["string", "null"], "description": "代表承接人或主持人。" },
+    "系所代碼": { "type": ["string", "null"], "description": "教師所屬系所代碼。" },
+    "主聘系所": { "type": ["string", "null"], "description": "教師主聘系所。" },
+    "教師姓名": { "type": ["string", "null"], "description": "專利相關教師姓名。" },
+    "專兼任": { "type": ["string", "null"], "description": "教師職務屬性。" },
+    "狀態": { "type": ["string", "null"], "description": "專利或技術狀態。" },
+    "所屬計畫案": { "type": ["string", "null"], "description": "專利所屬研究計畫案。" },
+    "專利/新品種名稱": { "type": ["string", "null"], "description": "專利名稱或新品種名稱。" },
+    "國別": { "type": ["string", "null"], "description": "專利申請或核發國別。" },
+    "專利類型": { "type": ["string", "null"], "description": "專利類型。" },
+    "技術報告代碼": { "type": ["string", "null"], "description": "技術報告代碼。" },
+    "進度狀況": { "type": ["string", "null"], "description": "技術或專利進度狀態。" },
+    "技術報告審核完成日期": { "type": ["string", "null"], "description": "技術報告審核完成日期。" },
+    "作者順序": { "type": ["string", "null"], "description": "教師在專利作者名單中的順序。" },
+    "申請人/權利人": { "type": ["string", "null"], "description": "專利申請人或權利人名稱。" },
+    "申請人/權利人類型": { "type": ["string", "null"], "description": "權利人類型。" },
+    "申請日期/公告日期": { "type": ["string", "null"], "description": "申請日期或公告日期。" },
+    "終止日期": { "type": ["string", "null"], "description": "專利終止日期。" },
+    "發照機關": { "type": ["string", "null"], "description": "發照機關名稱。" },
+    "證書字號": { "type": ["string", "null"], "description": "證書字號。" }
+  },
+  "required": [
+    "識別號", "年度", "承接代表", "系所代碼", "主聘系所", "教師姓名", "專兼任", "狀態",
+    "所屬計畫案", "專利/新品種名稱", "國別", "專利類型", "技術報告代碼", "進度狀況",
+    "技術報告審核完成日期", "作者順序", "申請人/權利人", "申請人/權利人類型",
+    "申請日期/公告日期", "終止日期", "發照機關", "證書字號"
+  ],
+  "additionalProperties": true
+}

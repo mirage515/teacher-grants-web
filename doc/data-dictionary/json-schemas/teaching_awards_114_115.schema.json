@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "teaching_awards_114_115",
+  "type": "object",
+  "properties": {
+    "年度": { "type": ["string", "null"], "description": "教學獎勵年度。" },
+    "申請編號": { "type": ["string", "null"], "description": "申請案件編號。" },
+    "申請型態": { "type": ["string", "null"], "description": "申請類型或申請模式。" },
+    "獎勵事項_1": { "type": ["string", "null"], "description": "第一項獎勵內容。" },
+    "獎勵事項_2": { "type": ["string", "null"], "description": "第二項獎勵內容。" },
+    "獎勵事項_3": { "type": ["string", "null"], "description": "第三項獎勵內容。" },
+    "具體成效說明": { "type": ["string", "null"], "description": "申請案件的具體成效說明。" },
+    "系所": { "type": ["string", "null"], "description": "申請人所屬系所。" },
+    "姓名": { "type": ["string", "null"], "description": "申請人姓名。" },
+    "百分比": { "type": ["number", "string", "null"], "description": "比重或比例值。" },
+    "點數": { "type": ["number", "string", "null"], "description": "獎勵評分或點數。" },
+    "金額": { "type": ["number", "string", "null"], "description": "核定或申請金額。" }
+  },
+  "required": ["年度", "申請編號", "申請型態", "獎勵事項_1", "獎勵事項_2", "獎勵事項_3", "具體成效說明", "系所", "姓名", "百分比", "點數", "金額"],
+  "additionalProperties": true
+}

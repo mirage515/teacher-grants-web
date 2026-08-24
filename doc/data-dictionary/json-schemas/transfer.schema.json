@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "transfer",
+  "type": "object",
+  "properties": {
+    "識別號": { "type": ["string", "null"], "description": "技轉資料唯一識別碼。" },
+    "年度": { "type": ["string", "null"], "description": "技轉或授權年度。" },
+    "承接代表": { "type": ["string", "null"], "description": "代表承接人或主持人。" },
+    "系所代碼": { "type": ["string", "null"], "description": "教師所屬系所代碼。" },
+    "主聘系所": { "type": ["string", "null"], "description": "教師主聘系所。" },
+    "教師姓名": { "type": ["string", "null"], "description": "技轉相關教師姓名。" },
+    "專兼任": { "type": ["string", "null"], "description": "教師職務屬性。" },
+    "技術移轉或授權": { "type": ["string", "null"], "description": "技術移轉或授權類型。" },
+    "技轉/授權名稱": { "type": ["string", "null"], "description": "技轉或授權名稱。" },
+    "技轉或授權廠商名稱": { "type": ["string", "null"], "description": "合作廠商名稱。" },
+    "技轉或授權金額": { "type": ["number", "string", "null"], "description": "技轉或授權金額。" },
+    "技轉或授權起始日": { "type": ["string", "null"], "description": "技轉或授權起始日期。" },
+    "技轉或授權終止日": { "type": ["string", "null"], "description": "技轉或授權終止日期。" },
+    "合約編號": { "type": ["string", "null"], "description": "技轉或授權合約編號。" },
+    "是否取得專利": { "type": ["string", "null"], "description": "是否同時取得專利。" },
+    "專利證書字號": { "type": ["string", "null"], "description": "專利證書字號。" }
+  },
+  "required": [
+    "識別號", "年度", "承接代表", "系所代碼", "主聘系所", "教師姓名", "專兼任",
+    "技術移轉或授權", "技轉/授權名稱", "技轉或授權廠商名稱", "技轉或授權金額",
+    "技轉或授權起始日", "技轉或授權終止日", "合約編號", "是否取得專利", "專利證書字號"
+  ],
+  "additionalProperties": true
+}

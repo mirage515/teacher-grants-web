@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "grants_112_114",
+  "type": "object",
+  "properties": {
+    "年度": { "type": ["string", "null"], "description": "獎補助或補助發放年度。" },
+    "系所": { "type": ["string", "null"], "description": "受補助教師所屬系所名稱。" },
+    "項目": { "type": ["string", "null"], "description": "獎補助主項目類別。" },
+    "次項目": { "type": ["string", "null"], "description": "獎補助次項目或細分類別。" },
+    "教師姓名": { "type": ["string", "null"], "description": "受補助或獲獎教師姓名。" },
+    "獎助金額": { "type": ["number", "string", "null"], "description": "獎助總額，通常以新臺幣為單位。" }
+  },
+  "required": ["年度", "系所", "項目", "次項目", "教師姓名", "獎助金額"],
+  "additionalProperties": true
+}
