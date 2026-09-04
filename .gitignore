@@ -22,7 +22,32 @@
 
 # misc
 .DS_Store
+# local credentials, certificates, and private keys
 *.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# local secret/config files
+*.secret
+*.secrets
+*.credentials
+*credentials*.json
+*secrets*.json
+*service-account*.json
+*-credentials.json
+*.sqlite
+*.sqlite3
+*.db
+
+# local data exports
+*.csv
+*.tsv
 
 # debug
 npm-debug.log*
@@ -30,8 +55,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# environment files (all project levels)
 .env*
+**/.env*
+!**/.env.example
+!**/.env.template
+!**/.env.sample
 
 # vercel
 .vercel

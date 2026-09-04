@@ -2,6 +2,10 @@
 
 這個目錄是可上傳至 QNAP Container Station 的 production runtime 包。
 
+Windows Server 2022 的 IIS 與 Node.js 安裝腳本位於 `scripts/install-windows-server-2022.ps1`；請在正式伺服器以系統管理員 PowerShell 執行。
+
+對應解除安裝腳本為 `scripts/uninstall-windows-server-2022.ps1`。預設只移除 `TeacherGrantsWeb` 服務；Node.js、IIS、IIS 模組與應用程式資料都必須明確指定參數才會移除。
+
 ## 啟動方式
 
 在此目錄執行：

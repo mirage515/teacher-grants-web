@@ -4,6 +4,7 @@
 
 ## 目錄
 
+- [v3-development-worklog-2026-09-01.md](v3-development-worklog-2026-09-01.md)：v3 本機開發、修改與決策工作日誌
 - [data-dictionary/README.md](data-dictionary/README.md)：資料字典總覽
 - [data-dictionary/grants_112_114.md](data-dictionary/grants_112_114.md)：獎補助資料字典
 - [data-dictionary/papers_112_114.md](data-dictionary/papers_112_114.md)：論文發表資料字典
