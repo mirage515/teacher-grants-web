@@ -1,0 +1,13 @@
+services:
+  teacher-grants-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: teacher-grants-web
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      HOSTNAME: 0.0.0.0
+      PORT: 3000
+    restart: unless-stopped
